@@ -1,0 +1,36 @@
+﻿<Window x:Class="SelfmanagmentApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SelfmanagmentApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1024" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid>
+            <Grid Background="#FF3580BF">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Image Height="150" VerticalAlignment="Top" Source="Assets/bg.jpg" Opacity="0.4" Stretch="UniformToFill"/>
+                    <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100">
+                        <Ellipse.Fill>
+                            <ImageBrush ImageSource="Assets/photo1.jpeg" Stretch="UniformToFill"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                </Grid>
+            </Grid>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right">
+                <Button Width="30" Height="30" Padding="0">
+                    <materialDesign:PackIcon Kind="Settings"/>
+                </Button>
+                <Button Width="30" Height="30" Padding="0">
+                    <materialDesign:PackIcon Kind="PowerOff"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
