@@ -7,13 +7,215 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1024" WindowStartupLocation="CenterScreen">
-    <Grid>
-        <Grid Background="#AFBCAA" Margin="0,3,0.333,-3.333">
+    <Window.Resources>
+        <Storyboard x:Key="OpenMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="50"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="StackPanelMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="4"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="listViewItem">
+                <EasingDoubleKeyFrame KeyTime="0" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="listViewItem1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="listViewItem2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="listViewItem3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-0.667"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="CloseMenu">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="grid">
+                <EasingDoubleKeyFrame KeyTime="0" Value="50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="StackPanelMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="250"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="StackPanelMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonOpenMenu">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
+            <BeginStoryboard x:Name="CloseMenu_BeginStoryboard" Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource OpenMenu}"/>
+            <BeginStoryboard Storyboard="{StaticResource CloseMenu}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    <Grid x:Name="GridMain" Background="#FF398078">
+        <StackPanel x:Name="StackPanelMenu" Width="250" HorizontalAlignment="Left" Margin="-250 0 0 0" RenderTransformOrigin="0.5,0.5">
+            <StackPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </StackPanel.RenderTransform>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="100" HorizontalAlignment="Center">
+                <Button x:Name="button1" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" >
+                    <materialDesign:PackIcon Kind="Bell" Width="30" Height="30"/>
+                </Button>
+                <Button x:Name="button" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" BorderBrush="{x:Null}" Width="80" Height="80" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\photo2.jpg" Stretch="UniformToFill"/>
+                    </Button.Background>
+                </Button>
+                <Button x:Name="button2" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" >
+                    <materialDesign:PackIcon Kind="InfoOutline" Width="30" Height="30"/>
+                </Button>
+            </StackPanel>
+            <ListView>
+                <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="Bookmark" Width="30" Height="30" VerticalAlignment="Center"/>
+                        <TextBlock Text="Текущее" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="WindowOpen" Width="30" Height="30" VerticalAlignment="Center"/>
+                        <TextBlock Text="Планирование" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="BookmarkTick" Width="30" Height="30" VerticalAlignment="Center"/>
+                        <TextBlock Text="Саморазвитие" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="FormatListCheckbox" Width="30" Height="30" VerticalAlignment="Center"/>
+                        <TextBlock Text="Списки" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="HelpBox" Width="30" Height="30" VerticalAlignment="Center"/>
+                        <TextBlock Text="Помощь" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </StackPanel>
+        <Grid x:Name="grid" Background="#AFBCAA"  Width="1024" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="250"/>
             </Grid.ColumnDefinitions>
-            <Grid Grid.Column="1" Background="#398078">
+            <Grid Grid.Column="1" Background="#398078" >
                 <Image Height="150" VerticalAlignment="Top" Source="Assets/bg.jpg" Opacity="0.4" Stretch="UniformToFill"/>
                 <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100">
                     <Ellipse.Fill>
@@ -54,7 +256,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:Name="ButtonCloseMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonCloseMenu_Click" Visibility="Collapsed">
+                <Button x:Name="ButtonCloseMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonCloseMenu_Click"  Visibility="Collapsed">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#398078"/>
                 </Button>
                 <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonOpenMenu_Click">

@@ -19,4 +19,3 @@ D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\Selfmanag
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.exe
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.pdb
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_Content.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
