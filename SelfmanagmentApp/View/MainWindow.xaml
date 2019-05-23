@@ -7,6 +7,9 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1024" WindowStartupLocation="CenterScreen">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="grid">
@@ -117,19 +120,19 @@
                 </TransformGroup>
             </StackPanel.RenderTransform>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="100" HorizontalAlignment="Center">
-                <Button x:Name="button1" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" >
+                <Button x:Name="button1" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White">
                     <materialDesign:PackIcon Kind="Bell" Width="30" Height="30"/>
                 </Button>
-                <Button x:Name="button" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" BorderBrush="{x:Null}" Width="80" Height="80" >
+                <Button x:Name="button" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" BorderBrush="{x:Null}" Width="80" Height="80">
                     <Button.Background>
-                        <ImageBrush ImageSource="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\photo2.jpg" Stretch="UniformToFill"/>
+                        <ImageBrush x:Name="imgUser2" Stretch="UniformToFill"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="button2" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" >
+                <Button x:Name="button2" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}"  Foreground="White">
                     <materialDesign:PackIcon Kind="InfoOutline" Width="30" Height="30"/>
                 </Button>
             </StackPanel>
-            <ListView>
+            <ListView Margin="0,30">
                 <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
@@ -140,11 +143,11 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="Bookmark" Width="30" Height="30" VerticalAlignment="Center"/>
-                        <TextBlock Text="Текущее" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                        <materialDesign:PackIcon Kind="Bookmark" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
+                        <TextBlock Text="Текущее" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5">
+                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem1_MouseDoubleClick">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -154,11 +157,11 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="WindowOpen" Width="30" Height="30" VerticalAlignment="Center"/>
-                        <TextBlock Text="Планирование" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                        <materialDesign:PackIcon Kind="WindowOpen" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
+                        <TextBlock Text="Планирование" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5">
+                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem2_MouseDoubleClick">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -168,11 +171,11 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="BookmarkTick" Width="30" Height="30" VerticalAlignment="Center"/>
-                        <TextBlock Text="Саморазвитие" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                        <materialDesign:PackIcon Kind="BookmarkTick" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
+                        <TextBlock Text="Саморазвитие" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5">
+                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem3_MouseDoubleClick">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -182,11 +185,11 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="FormatListCheckbox" Width="30" Height="30" VerticalAlignment="Center"/>
-                        <TextBlock Text="Списки" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                        <materialDesign:PackIcon Kind="FormatListCheckbox" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
+                        <TextBlock Text="Списки" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5">
+                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem4_PreviewMouseDown">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -196,8 +199,8 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="HelpBox" Width="30" Height="30" VerticalAlignment="Center"/>
-                        <TextBlock Text="Помощь" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12"/>
+                        <materialDesign:PackIcon Kind="HelpBox" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
+                        <TextBlock Text="Помощь" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
             </ListView>
@@ -216,13 +219,13 @@
                 <ColumnDefinition Width="250"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1" Background="#398078" >
-                <Image Height="150" VerticalAlignment="Top" Source="Assets/bg.jpg" Opacity="0.4" Stretch="UniformToFill"/>
+                <Image Height="150" VerticalAlignment="Top" Source="/Assets/bg.jpg" Opacity="0.4" Stretch="UniformToFill"/>
                 <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100">
                     <Ellipse.Fill>
-                        <ImageBrush ImageSource="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\photo2.jpg" Stretch="UniformToFill"/>
+                        <ImageBrush x:Name="imgUser1"  Stretch="UniformToFill"/>
                     </Ellipse.Fill>
                 </Ellipse>
-                <TextBlock Text ="Zoe" Foreground="White" FontSize="24" Margin="10 100" VerticalAlignment="Top"/>
+                <TextBlock Name="txtUser" Text ="Zoe" Foreground="White" FontSize="24" Margin="10 100" VerticalAlignment="Top"/>
                 <StackPanel Margin="0 150">
                     <Grid Height="60" Margin="20 50 20 0">
                         <Grid.ColumnDefinitions>
@@ -259,11 +262,11 @@
                 <Button x:Name="ButtonCloseMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonCloseMenu_Click"  Visibility="Collapsed">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#398078"/>
                 </Button>
-                <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonOpenMenu_Click">
+                <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5,5,0,0" Click="ButtonOpenMenu_Click" Grid.RowSpan="2">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#398078"/>
                 </Button>
 
-                <TextBlock Text="WELCOME back" Foreground="#398078" FontSize="30" FontWeight="Bold" Margin="5" Grid.Row="1" FontFamily="Segoe UI Semilight"/>
+                <TextBlock Text="Selfmanagment app" HorizontalAlignment="Center" Foreground="#398078" FontSize="30" FontWeight="Bold" Margin="5" Grid.Row="1" FontFamily="Segoe UI Semilight" Grid.ColumnSpan="3"/>
 
                 <Grid Margin="5" Grid.Row="2" Grid.Column="0">
                     <Grid.ColumnDefinitions>
@@ -273,69 +276,53 @@
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp1.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" />
                 </Grid>
                 <Grid Margin="5" Grid.Row="2" Grid.Column="1">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Opacity="0.5" Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp2.jpg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                        <TextBlock Text="Планируй свой день" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="2" Grid.Column="2">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp3.jpg" Stretch="UniformToFill"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="3" Grid.Column="0">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Opacity="0.5" Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp4.jpg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                        <TextBlock Text="Ставь цели" Foreground="#398078" FontSize="16" FontWeight="Bold"/>
-                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="3" Grid.Column="1">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp9.jpeg" Stretch="UniformToFill"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="3" Grid.Column="2">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Opacity="0.5" Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp6.jpg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                        <TextBlock Text="Составляй списки" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="4" Grid.Column="0">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp7.jpg" Stretch="UniformToFill"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="4" Grid.Column="1">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Opacity="0.5" Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp5.jpg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                        <TextBlock Text="Контролируй текущее" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom"/>
                 </Grid>
                 <Grid Margin="5" Grid.Row="4" Grid.Column="2">
                     <Grid.Effect>
                         <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
                     </Grid.Effect>
-                    <Image Source="D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\Assets\mp8.jpg" Stretch="UniformToFill"/>
                 </Grid>
             </Grid>
+            <Grid Name="MainGrid" HorizontalAlignment="Left" Height="480" Margin="0,95,0,-0.333" VerticalAlignment="Top" Width="770"/>
         </Grid>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right">
             <Button x:Name="ButtonClose" Width="30" Height="30" Padding="0" Margin="10" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonClose_Click_1">

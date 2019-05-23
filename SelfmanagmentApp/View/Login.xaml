@@ -1,0 +1,32 @@
+﻿<Window x:Class="SelfmanagmentApp.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SelfmanagmentApp"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+ Title="Login" Height="400" Width="300" FontSize="14" WindowStartupLocation="CenterScreen">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"/>
+    </WindowChrome.WindowChrome>
+    <Grid Background="#AFBCAA">
+        <Border Name="Border" Background="#398078" Margin="20">
+            <StackPanel Margin="20">
+                <Label Content="Вход" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
+                <Separator Foreground="#c6f0ef"></Separator>
+                <Label Content="Email" Foreground="White"/>
+                <TextBox Name="txtUserName" Background="#AFBCAA" Foreground="White" FontSize="16" Padding="1 1 1 1"/>
+                <Label Content="Пароль" Foreground="White"/>
+                <PasswordBox Name="txtUserPass" Background="#AFBCAA" Foreground="White" FontSize="16" Padding="1 1 1 1"/>
+                <Button Name="btnSubmit" Click="BtnSubmit_Click" Content="Войти" Margin="45,10,45,10"  Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078"/>
+                <Button x:Name="btnSignUp" Click="BtnSignUp_Click" Content="Регистрация" Margin="45,0,45,0" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078"/>
+            </StackPanel>
+        </Border>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Margin="20">
+            <Button x:Name="ButtonClose" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" Click="ButtonClose_Click">
+                <materialDesign:PackIcon Kind="Power"/>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

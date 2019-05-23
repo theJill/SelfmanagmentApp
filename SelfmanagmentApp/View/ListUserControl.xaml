@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="SelfmanagmentApp.View.ListUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SelfmanagmentApp.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="770">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="5,30,0,0" TextWrapping="Wrap" Text="Списки" VerticalAlignment="Top" Foreground="#398078" FontSize="30" FontWeight="Bold" FontFamily="Segoe UI Semilight"/>
+
+        <ScrollViewer Margin="0,36,0,0">
+            <StackPanel Name="DealStack" HorizontalAlignment="Center" Height="Auto"  VerticalAlignment="Center" Width="764"/>
+        </ScrollViewer>
+        
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="470,0,0,50" VerticalAlignment="Bottom"  Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="Button_Click"/>
+        <TextBox Name="txtDeal" HorizontalAlignment="Left" Height="23" Margin="300,0,0,50" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="120"/>
+    </Grid>
+</UserControl>
