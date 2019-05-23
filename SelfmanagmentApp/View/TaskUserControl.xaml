@@ -14,7 +14,6 @@
         <TextBox Name="txt4" HorizontalAlignment="Left" Height="23" Margin="172,156,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="txt5" HorizontalAlignment="Left" Height="23" Margin="172,184,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
         <TextBox Name="txt6" HorizontalAlignment="Left" Height="23" Margin="172,212,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Name="ButtonSave" Content="Save" HorizontalAlignment="Left" Margin="195,240,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSave_Click"/>
-
+        <Button Name="ButtonSave" Content="Save" HorizontalAlignment="Left" Margin="195,240,0,0" VerticalAlignment="Top" Width="75" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonSave_Click"/>
     </Grid>
 </UserControl>

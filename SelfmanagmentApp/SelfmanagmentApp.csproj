@@ -164,11 +164,23 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\background.jpeg" />
+    <Resource Include="Assets\photo2.jpg" />
     <Resource Include="Assets\bg.jpg" />
+    <Resource Include="Assets\mp1.jpg" />
+    <Resource Include="Assets\mp2.jpg" />
+    <Resource Include="Assets\mp3.jpg" />
+    <Resource Include="Assets\mp4.jpg" />
+    <Resource Include="Assets\mp5.jpg" />
+    <Resource Include="Assets\mp6.jpg" />
+    <Resource Include="Assets\mp7.jpg" />
+    <Resource Include="Assets\mp8.jpg" />
+    <Resource Include="Assets\mp9.jpeg" />
     <Content Include="Assets\photo1.jpeg" />
   </ItemGroup>
   <ItemGroup />

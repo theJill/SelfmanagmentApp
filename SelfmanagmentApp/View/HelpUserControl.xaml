@@ -3,48 +3,70 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="770">
     <Grid>
         <Grid.RowDefinitions>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
-    </Grid.RowDefinitions>
-    <Grid.ColumnDefinitions>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="*"/>
-        <ColumnDefinition Width="*"/>
-    </Grid.ColumnDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         <Grid Margin="5" Grid.Row="0" Grid.Column="0">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
             <Image Source="/Assets/mp1.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
+            <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Top">
+                <TextBlock Text="↖" FontSize="20"  Foreground="#398078" FontWeight="Bold" Height="26" Width="23"/>
+                <TextBlock Text="Открыть меню" FontSize="16"  Foreground="#398078" FontWeight="Bold" Height="19"/>
+            </StackPanel>
         </Grid>
         <Grid Margin="5" Grid.Row="0" Grid.Column="1">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
             <Image Source="/Assets/mp2.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
-            <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                <TextBlock Text="Планируй свой день" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-            </StackPanel>
+
+            <materialDesign:PopupBox PopupMode="MouseOver" Width="247" PlacementMode="BottomAndAlignCentres">
+                <materialDesign:PopupBox.ToggleContent >
+                    <StackPanel Orientation="Horizontal" Width="247" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Height="140">
+                        <TextBlock Text="Планируй свой день" FontSize="16"  HorizontalAlignment="Center" Margin="40 20"  VerticalAlignment="Bottom" Foreground="#398078" FontWeight="Bold"/>
+                    </StackPanel>
+                </materialDesign:PopupBox.ToggleContent>
+                <StackPanel>
+                    <TextBox Text="План на день в разделе Планирование" Background="#398078" Foreground="White"/>
+                </StackPanel>
+            </materialDesign:PopupBox>
         </Grid>
         <Grid Margin="5" Grid.Row="0" Grid.Column="2">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
-            <Image Source="/Assets/mp3.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
+            <Image Source="/Assets/mp9.jpeg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
         </Grid>
         <Grid Margin="5" Grid.Row="1" Grid.Column="0">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
             <Image Source="/Assets/mp4.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
-            <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                <TextBlock Text="Ставь цели" Foreground="#398078" FontSize="16" FontWeight="Bold"/>
-            </StackPanel>
+            <materialDesign:PopupBox PopupMode="MouseOver" Width="247" PlacementMode="BottomAndAlignCentres" >
+                <materialDesign:PopupBox.ToggleContent>
+                    <StackPanel Orientation="Horizontal" Width="247" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Height="140">
+                        <TextBlock Text="               Ставь цели" FontSize="16"  HorizontalAlignment="Center" Margin="20" VerticalAlignment="Bottom" Foreground="#398078" FontWeight="Bold" Width="224"/>
+                    </StackPanel>
+                </materialDesign:PopupBox.ToggleContent>
+                <StackPanel>
+                    <TextBox Text="Agile система Катерины Ленгольд" Background="#398078" Foreground="White"/>
+                    <TextBox Text="в меню Саморазвитие" Background="#398078" Foreground="White"/>
+                </StackPanel>
+            </materialDesign:PopupBox>
         </Grid>
         <Grid Margin="5" Grid.Row="1" Grid.Column="1">
             <Grid.Effect>
@@ -57,9 +79,18 @@
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
             <Image Source="/Assets/mp6.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
-            <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                <TextBlock Text="Составляй списки" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-            </StackPanel>
+            <materialDesign:PopupBox PopupMode="MouseOver" Width="247" PlacementMode="BottomAndAlignCentres">
+                <materialDesign:PopupBox.ToggleContent >
+                    <StackPanel Orientation="Horizontal" Width="247" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Height="140">
+                        <TextBlock Text="       Веди списки" FontSize="16"  HorizontalAlignment="Center" Margin="40,0,40,20"  VerticalAlignment="Bottom" Foreground="#398078" FontWeight="Bold" Width="161"/>
+                    </StackPanel>
+                </materialDesign:PopupBox.ToggleContent>
+                <StackPanel>
+                    <TextBox Text="Список покупок или список дел?" Background="#398078" Foreground="White"/>
+                    <TextBox Text="Составь и распечатай в меню Списки" Background="#398078" Foreground="White"/>
+                </StackPanel>
+            </materialDesign:PopupBox>
+
         </Grid>
         <Grid Margin="5" Grid.Row="2" Grid.Column="0">
             <Grid.Effect>
@@ -72,15 +103,24 @@
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
             <Image Source="/Assets/mp8.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
-            <StackPanel Orientation="Horizontal" Margin="25" HorizontalAlignment="Center"  VerticalAlignment="Bottom">
-                <TextBlock Text="Контролируй текущее" FontSize="16"  Foreground="#398078" FontWeight="Bold"/>
-            </StackPanel>
+            <materialDesign:PopupBox PopupMode="MouseOver" Width="247" PlacementMode="TopAndAlignCentres" >
+                <materialDesign:PopupBox.ToggleContent >
+                    <StackPanel Orientation="Horizontal" Width="247" HorizontalAlignment="Center"  VerticalAlignment="Bottom" Height="140">
+                        <TextBlock Text="Контролируй дела" FontSize="16"  HorizontalAlignment="Center" Margin="40,0,40,20"  VerticalAlignment="Bottom" Foreground="#398078" FontWeight="Bold" Width="161" />
+                    </StackPanel>
+                </materialDesign:PopupBox.ToggleContent>
+                <StackPanel>
+                    <TextBox Text="Используй приложение" Background="#398078" Foreground="White"></TextBox>
+                    <TextBox Text="Selfmanagment App" Background="#398078" Foreground="White"></TextBox>
+                </StackPanel>
+            </materialDesign:PopupBox>
+
         </Grid>
         <Grid Margin="5" Grid.Row="2" Grid.Column="2">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
             </Grid.Effect>
-            <Image Source="/Assets/mp9.jpeg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
+            <Image Source="/Assets/mp3.jpg" Stretch="UniformToFill" Grid.ColumnSpan="2" Opacity="0.4"/>
         </Grid>
     </Grid>
 </UserControl>

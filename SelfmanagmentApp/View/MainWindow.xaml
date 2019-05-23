@@ -242,7 +242,9 @@
                         <TextBlock Text="Выполнено" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5" Grid.Column="1" FontFamily="Segoe UI Semilight"/>
                         <TextBlock Text="4 задачи" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" Grid.Column="1" FontFamily="Segoe UI Semilight"/>
                     </Grid>
-                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Мотивирующая фраза, установленная пользователем</TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Вдохновили:</TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Катерина Ленгольд "Космос. Agile ежедневник для личного развития"</TextBlock>
+                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Макс Дорофеев "Джедайские техники"</TextBlock>
                 </StackPanel>
             </Grid>
             <Grid>
