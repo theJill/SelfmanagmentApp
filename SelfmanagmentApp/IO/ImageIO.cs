@@ -9,7 +9,12 @@ namespace SelfmanagmentApp.IO
         {
             byte[] data;
             JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+            if (imageSource == null)
+            {
+                return null;
+            }
             encoder.Frames.Add(BitmapFrame.Create(imageSource));
+
             using (MemoryStream ms = new MemoryStream())
             {
                 encoder.Save(ms);

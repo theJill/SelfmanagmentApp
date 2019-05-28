@@ -1,12 +1,10 @@
-﻿using System;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 
 namespace SelfmanagmentApp.Context
 {
     public class UserContext : DbContext
     {
         public UserContext() : base("DefaultConnection")
-
         { }
 
         public DbSet<ListDeal> ListDeals { get; set; }

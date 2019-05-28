@@ -8,11 +8,17 @@
              d:DesignHeight="450" d:DesignWidth="770">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="5,30,0,0" TextWrapping="Wrap" Text="Планирование" VerticalAlignment="Top" Foreground="#398078" FontSize="30" FontWeight="Bold" FontFamily="Segoe UI Semilight"/>
-        <DataGrid Name="MainGrid" HorizontalAlignment="Left" Height="320" Margin="0,75,0,0" VerticalAlignment="Top" Width="770" />
-        <Button Name="ButtonUpdate" Content="Обновить" HorizontalAlignment="Left" Margin="520,408,0,0" VerticalAlignment="Top" Width="100" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonUpdate_Click" />
-        <Button Name="ButtonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="408,408,0,0" VerticalAlignment="Top" Width="100" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonAdd_Click"/>
-        <TextBox Name="txtPlaning" HorizontalAlignment="Left" Height="23" Margin="280,408,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="339,431,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-
+        <DataGrid Name="MainGrid" HorizontalAlignment="Left" Height="320" Margin="0,75,0,0" VerticalAlignment="Top" Width="770" Background="#398078" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Задача" Binding="{Binding Path=NamePlaning}" MinWidth="100" Width="400" />
+                <DataGridTextColumn Header="Начало" Binding="{Binding Path=TimePlaning}" MinWidth="100" Width="150" />
+                <DataGridCheckBoxColumn Header="Статус" Binding="{Binding Path=StatusPlaning}" MinWidth="100" Width="50" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="ButtonUpdate" Content="Обновить" HorizontalAlignment="Left" Margin="470,408,0,0" VerticalAlignment="Top" Width="100" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonUpdate_Click" />
+        <Button Name="ButtonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="360,408,0,0" VerticalAlignment="Top" Width="100" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonAdd_Click" />
+        <Button Name="ButtonDelete" Content="Удалить выполненное" HorizontalAlignment="Left" Margin="580,408,0,0" VerticalAlignment="Top" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonDelete_Click"/>
+        <TextBox Name="txtPlaning" HorizontalAlignment="Left" Height="28" Margin="10,408,0,0" TextWrapping="Wrap" Text="Записать задачу" VerticalAlignment="Top" Width="340"/>
+        <!-- <TextBlock HorizontalAlignment="Left" Margin="339,431,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/> -->
     </Grid>
 </UserControl>

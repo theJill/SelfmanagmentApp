@@ -1,13 +1,12 @@
 ﻿using SelfmanagmentApp.Context;
 using SelfmanagmentApp.Lock;
 using System.Data.Entity;
-using System.Windows.Controls;
 using System.Linq;
 using System.Windows;
 
 namespace SelfmanagmentApp.View
 {
-    public partial class ListUserControl : UserControl
+    public partial class ListUserControl : System.Windows.Controls.UserControl
     {
         UserContext _db = new UserContext();
 
@@ -27,7 +26,7 @@ namespace SelfmanagmentApp.View
                 .ForEach(v => DealStack.Children.Add(new DealUserControl(v)));
         }
 
-        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        private void AddButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             if (txtDeal.Text != "")
             {
@@ -39,9 +38,26 @@ namespace SelfmanagmentApp.View
                     );
                 _db.SaveChanges();
                 txtDeal.Text = "";
-                MessageBox.Show("Done!");
+                //MessageBox.Show("Done!");
             }
             UpdateList();
+        }
+
+        private void DelButton_Click(object sender, RoutedEventArgs e)
+        {
+            _db.ListDeals.Load();
+            _db.ListDeals.RemoveRange(_db.ListDeals);
+            _db.SaveChanges();
+            UpdateList();
+        }
+
+        private void PrintButton_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Controls.PrintDialog print = new System.Windows.Controls.PrintDialog();
+            if (print.ShowDialog() == true)
+            {
+                print.PrintVisual(this.DealStack, "Списки");
+            }
         }
     }
 }

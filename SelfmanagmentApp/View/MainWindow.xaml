@@ -22,6 +22,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
             </DoubleAnimationUsingKeyFrames>
+            <!--
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
@@ -32,6 +33,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
+            -->
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem1">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
@@ -94,7 +96,6 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-
         </Storyboard>
     </Window.Resources>
     <Window.Triggers>
@@ -133,6 +134,7 @@
                 </Button>
             </StackPanel>
             <ListView Margin="0,30">
+                <!--
                 <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
@@ -147,7 +149,8 @@
                         <TextBlock Text="Текущее" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem1_MouseDoubleClick">
+                -->
+                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem1_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem1_MouseDoubleClick"> -->
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -161,7 +164,7 @@
                         <TextBlock Text="Планирование" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem2_MouseDoubleClick">
+                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem2_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem2_MouseDoubleClick"> -->
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -175,7 +178,7 @@
                         <TextBlock Text="Саморазвитие" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem3_MouseDoubleClick">
+                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem3_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem3_MouseDoubleClick"> -->
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -189,7 +192,7 @@
                         <TextBlock Text="Списки" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5" MouseDoubleClick="ListViewItem4_PreviewMouseDown">
+                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem4_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem4_PreviewMouseDown"> -->
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -237,10 +240,10 @@
                             <RowDefinition Height="30"/>
                         </Grid.RowDefinitions>
                         <TextBlock Text="Поставлено" VerticalAlignment="Top" Foreground="#FFFBFBFB" Margin="5,9,5.333,0" FontFamily="Segoe UI Semilight"/>
-                        <TextBlock Text="15 задач" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" FontFamily="Segoe UI Semilight"/>
+                        <TextBlock Name="txtAllTasks" Text="15 задач" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" FontFamily="Segoe UI Semilight"/>
 
                         <TextBlock Text="Выполнено" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5" Grid.Column="1" FontFamily="Segoe UI Semilight"/>
-                        <TextBlock Text="4 задачи" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" Grid.Column="1" FontFamily="Segoe UI Semilight"/>
+                        <TextBlock Name="txtFinishTasks" Text="4 задачи" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" Grid.Column="1" FontFamily="Segoe UI Semilight"/>
                     </Grid>
                     <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Вдохновили:</TextBlock>
                     <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14" FontFamily="Segoe UI Semilight">Катерина Ленгольд "Космос. Agile ежедневник для личного развития"</TextBlock>

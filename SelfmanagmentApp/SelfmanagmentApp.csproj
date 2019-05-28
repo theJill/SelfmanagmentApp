@@ -50,6 +50,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -72,6 +74,15 @@
     <Compile Include="IO\ImageIO.cs" />
     <Compile Include="IO\StringIO.cs" />
     <Compile Include="Lock\TokenUser.cs" />
+    <Compile Include="Migrations\201905231404060_InitialCreate.cs" />
+    <Compile Include="Migrations\201905231404060_InitialCreate.Designer.cs">
+      <DependentUpon>201905231404060_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905271403129_AddTasks.cs" />
+    <Compile Include="Migrations\201905271403129_AddTasks.Designer.cs">
+      <DependentUpon>201905271403129_AddTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Token.cs" />
     <Compile Include="View\DealUserControl.xaml.cs">
       <DependentUpon>DealUserControl.xaml</DependentUpon>
@@ -153,6 +164,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Migrations\201905231404060_InitialCreate.resx">
+      <DependentUpon>201905231404060_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905271403129_AddTasks.resx">
+      <DependentUpon>201905271403129_AddTasks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

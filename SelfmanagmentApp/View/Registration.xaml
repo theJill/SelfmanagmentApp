@@ -13,7 +13,8 @@
     <Grid Background="#afbcaa">
         <Border Name="Border" Background="#398078" Margin="20">
             <StackPanel Margin="20">
-                <Label Content="Sign up" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label>
+                <!-- <Label Content="Sign up" Foreground="White" FontSize="25" HorizontalAlignment="Center"></Label> -->
+                <Label Content="Регистрация" Foreground="White" FontSize="25" HorizontalAlignment="Center" />
                 <Separator Background="#afbcaa"></Separator>
                 <Label Content="Email" Foreground="White"/>
                 <TextBox Name="txtUserEmail" Background="#AFBCAA" Foreground="White" FontSize="16" Padding="1 1 1 1"/>

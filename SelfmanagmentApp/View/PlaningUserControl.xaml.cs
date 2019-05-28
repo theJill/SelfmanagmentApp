@@ -38,10 +38,25 @@ namespace SelfmanagmentApp.View
                 .Add
                 (
                 new PlaningUser()
-                { UserID = TokenUser.Token.User.UserID, NamePlaning = txtPlaning.Text, TimePlaning = DateTime.Now.ToString()}
+                {
+                    UserID = TokenUser.Token.User.UserID,
+                    NamePlaning = txtPlaning.Text,
+                    TimePlaning = DateTime.Now.ToString()
+                }
                 );
             _db.SaveChanges();
-                        a = _db.Planings
+            a = _db.Planings
+                .Where(f => f.UserID == TokenUser.Token.User.UserID)
+                .ToList();
+            MainGrid.ItemsSource = a;
+        }
+
+        private void ButtonDelete_Click(object sender, RoutedEventArgs e)
+        {
+            _db.Planings.Load();
+            _db.Planings.RemoveRange(_db.Planings.Where(p => p.StatusPlaning == true));
+            _db.SaveChanges();
+            a = _db.Planings
                 .Where(f => f.UserID == TokenUser.Token.User.UserID)
                 .ToList();
             MainGrid.ItemsSource = a;

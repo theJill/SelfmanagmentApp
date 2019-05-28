@@ -1,8 +1,6 @@
 ﻿using Microsoft.Win32;
 using SelfmanagmentApp.Context;
-using SelfmanagmentApp.IO;
 using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Windows;
 using System.Windows.Media.Imaging;
