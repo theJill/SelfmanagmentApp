@@ -32,32 +32,5 @@ namespace SelfmanagmentApp.Context
         {
 
         }
-
-        /*
-        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int TaskID { get; set; }
-
-        public string TaskOneValue { get; set; }
-
-        public string TaskTwoValue { get; set; }
-
-        public string TaskThreeValue { get; set; }
-
-        public string LearningValue { get; set; }
-
-        public string ThanksValue { get; set; }
-
-        public string UpValue { get; set; }
-
-        public Task()
-        {
-            TaskOneValue = "Цель №1 (Развитие)";
-            TaskTwoValue = "Этапы:";
-            TaskThreeValue = "1";
-            LearningValue = "2";
-            ThanksValue = "3";
-            UpValue = "Почему для меня это важно?";
-        }
-        */
     }
 }

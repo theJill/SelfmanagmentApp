@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\
 SelfmanagmentApp
 none
 false
 DEBUG;TRACE
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\App.xaml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\App.xaml
 81463053068
 2-1334299060
-27254641328
-20498361737
+25465579437
+2177661619
 View\DealUserControl.xaml;View\HelpUserControl.xaml;View\ListUserControl.xaml;View\Login.xaml;View\MainWindow.xaml;View\PlaningUserControl.xaml;View\Registration.xaml;View\TaskUserControl.xaml;
 
-False
+True
 

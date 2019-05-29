@@ -1,15 +1,36 @@
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe.config
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.pdb
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.dll
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignColors.dll
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.xml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\HelpUserControl.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\DealUserControl.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\HelpUserControl.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\ListUserControl.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Login.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\MainWindow.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Registration.g.cs
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\TaskUserControl.g.cs
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\App.g.cs
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_Content.g.cs
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.cache
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.lref
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe.config
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.pdb
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignColors.dll
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.dll
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\App.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\DealUserControl.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\ListUserControl.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Login.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\MainWindow.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Registration.baml
+D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\TaskUserControl.baml
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.g.resources
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Properties.Resources.resources
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.GenerateResource.cache
@@ -17,152 +38,3 @@ D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\Selfmanag
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CopyComplete
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.exe
 D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.pdb
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.dll
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.dll
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.xml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.xml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Login.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Registration.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Login.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\Registration.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\MainWindow.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\MainWindow.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\HelpUserControl.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\HelpUserControl.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\ListUserControl.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\ListUserControl.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\DealUserControl.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\DealUserControl.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\TaskUserControl.g.cs
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\View\TaskUserControl.baml
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe.config
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.pdb
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.dll
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignColors.dll
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.xml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\HelpUserControl.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\DealUserControl.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\HelpUserControl.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\ListUserControl.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Login.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\MainWindow.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Registration.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\TaskUserControl.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\App.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_Content.g.cs
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.cache
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.lref
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\App.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\DealUserControl.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\ListUserControl.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Login.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\MainWindow.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Registration.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\TaskUserControl.baml
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.g.resources
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Properties.Resources.resources
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.GenerateResource.cache
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CoreCompileInputs.cache
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CopyComplete
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.exe
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.pdb
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe.config
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.pdb
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.dll
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignColors.dll
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.dll
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.xml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.xml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\HelpUserControl.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\DealUserControl.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\HelpUserControl.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\ListUserControl.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Login.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\MainWindow.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Registration.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\TaskUserControl.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\App.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_Content.g.cs
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.cache
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.lref
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\App.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\DealUserControl.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\ListUserControl.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Login.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\MainWindow.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\Registration.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\View\TaskUserControl.baml
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.g.resources
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Properties.Resources.resources
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.GenerateResource.cache
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CoreCompileInputs.cache
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CopyComplete
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.exe
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.pdb
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.InitialCreate.resources
-C:\Users\AGSYS\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.AddTasks.resources
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.InitialCreate.resources
-C:\Users\skoro\Downloads\SelfmanagmentApp-master\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.AddTasks.resources
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe.config
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.exe
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\SelfmanagmentApp.pdb
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\EntityFramework.dll
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.dll
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\MaterialDesignColors.dll
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.dll
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\EntityFramework.xml
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\EntityFramework.SqlServer.xml
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
-D:\CV_motivation\SelfmanagmentApp\bin\Debug\MaterialDesignThemes.Wpf.xml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csprojAssemblyReference.cache
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\HelpUserControl.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\DealUserControl.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\HelpUserControl.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\ListUserControl.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\Login.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\MainWindow.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\Registration.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\TaskUserControl.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\App.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_Content.g.cs
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.cache
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp_MarkupCompile.lref
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\App.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\DealUserControl.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\ListUserControl.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\Login.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\MainWindow.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\PlaningUserControl.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\Registration.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\View\TaskUserControl.baml
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.g.resources
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.InitialCreate.resources
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.AddTasks.resources
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Properties.Resources.resources
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.GenerateResource.cache
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CoreCompileInputs.cache
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.csproj.CopyComplete
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.exe
-D:\CV_motivation\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.pdb
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.InitialCreate.resources
-D:\Uni предметы\КУРСОВОЙ ПРОЕКТ\SelfmanagmentApp\SelfmanagmentApp\obj\Debug\SelfmanagmentApp.Migrations.AddTasks.resources

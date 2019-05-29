@@ -19,6 +19,5 @@
         <Button Name="ButtonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="360,408,0,0" VerticalAlignment="Top" Width="100" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonAdd_Click" />
         <Button Name="ButtonDelete" Content="Удалить выполненное" HorizontalAlignment="Left" Margin="580,408,0,0" VerticalAlignment="Top" Background="#AFBCAA" Foreground="White" FontSize="14" Height="28" BorderBrush="#398078" Click="ButtonDelete_Click"/>
         <TextBox Name="txtPlaning" HorizontalAlignment="Left" Height="28" Margin="10,408,0,0" TextWrapping="Wrap" Text="Записать задачу" VerticalAlignment="Top" Width="340"/>
-        <!-- <TextBlock HorizontalAlignment="Left" Margin="339,431,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/> -->
     </Grid>
 </UserControl>

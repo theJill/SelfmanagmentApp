@@ -22,18 +22,6 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="250"/>
             </DoubleAnimationUsingKeyFrames>
-            <!--
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="4"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="listViewItem">
-                <EasingDoubleKeyFrame KeyTime="0" Value="2"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
-            -->
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="listViewItem1">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-250"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-250"/>
@@ -134,23 +122,7 @@
                 </Button>
             </StackPanel>
             <ListView Margin="0,30">
-                <!--
-                <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
-                    <ListViewItem.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </ListViewItem.RenderTransform>
-                    <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="Bookmark" Width="30" Height="30" VerticalAlignment="Center" Foreground="White"/>
-                        <TextBlock Text="Текущее" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
-                    </StackPanel>
-                </ListViewItem>
-                -->
-                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem1_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem1_MouseDoubleClick"> -->
+                <ListViewItem x:Name="listViewItem1" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem1_PreviewMouseLeftButtonDown"> 
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -164,7 +136,7 @@
                         <TextBlock Text="Планирование" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem2_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem2_MouseDoubleClick"> -->
+                <ListViewItem x:Name="listViewItem2" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem2_PreviewMouseLeftButtonDown"> 
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -178,7 +150,7 @@
                         <TextBlock Text="Саморазвитие" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem3_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem3_MouseDoubleClick"> -->
+                <ListViewItem x:Name="listViewItem3" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem3_PreviewMouseLeftButtonDown"> 
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -192,7 +164,7 @@
                         <TextBlock Text="Списки" Margin="10" VerticalAlignment="Center" FontFamily="Segoe UI Semilight" FontSize="12" Foreground="White"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem4_PreviewMouseLeftButtonDown"> <!-- MouseDoubleClick="ListViewItem4_PreviewMouseDown"> -->
+                <ListViewItem x:Name="listViewItem4" Height="60" RenderTransformOrigin="0.5,0.5" PreviewMouseLeftButtonDown="ListViewItem4_PreviewMouseLeftButtonDown"> 
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>

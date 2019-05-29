@@ -36,8 +36,6 @@ namespace SelfmanagmentApp
 
         private void BtnLoadAvatar_Click(object sender, RoutedEventArgs e)
         {
-            //try
-            //{
                 OpenFileDialog op = new OpenFileDialog();
                 op.Title = "Select a picture";
                 op.Filter = "All supported graphics|*.jpg;*.jpeg;*.png|" +
@@ -47,11 +45,6 @@ namespace SelfmanagmentApp
                 {
                     imgAvatar = new BitmapImage(new Uri(op.FileName));
                 }
-            //}
-            //catch
-            //{
-                
-            //}
         }
     }
 }

@@ -47,6 +47,10 @@
     <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualStudio.Designer.Interfaces, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\Microsoft.VisualStudio.Designer.Interfaces.1.1.4323\lib\net11\Microsoft.VisualStudio.Designer.Interfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -74,15 +78,6 @@
     <Compile Include="IO\ImageIO.cs" />
     <Compile Include="IO\StringIO.cs" />
     <Compile Include="Lock\TokenUser.cs" />
-    <Compile Include="Migrations\201905231404060_InitialCreate.cs" />
-    <Compile Include="Migrations\201905231404060_InitialCreate.Designer.cs">
-      <DependentUpon>201905231404060_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201905271403129_AddTasks.cs" />
-    <Compile Include="Migrations\201905271403129_AddTasks.Designer.cs">
-      <DependentUpon>201905271403129_AddTasks.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Token.cs" />
     <Compile Include="View\DealUserControl.xaml.cs">
       <DependentUpon>DealUserControl.xaml</DependentUpon>
@@ -164,16 +159,11 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\201905231404060_InitialCreate.resx">
-      <DependentUpon>201905231404060_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201905271403129_AddTasks.resx">
-      <DependentUpon>201905271403129_AddTasks.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
